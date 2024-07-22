@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="" th:href="@{/css/mystyle.css}" />
+    <meta charset="UFT-8">
+<script>
+    console.log("this is message on console")
+alert("js is activated")
+</script>
+
+</head>
+<body >
+<script src="" th:src="@{js/myjs.js}"></script>
+<h1 th:text="'Hello, ' + ${name} + '!'">Hello </h1>
+
+<header class="header">
+    <a  href="#" class="logo">Portifolio</a>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="#about">about</a>
+        <a href="#service">service</a>
+        <a href="#portifolio">portifolio</a>
+        <a href="#contacte">contacte</a>
+
+    </nav>
+</header>
+
+</body>
+</html>
